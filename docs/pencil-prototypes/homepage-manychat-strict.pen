@@ -1,0 +1,2814 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "hRvBn",
+      "x": 0,
+      "y": 0,
+      "name": "Helo Mentor Homepage",
+      "width": 1440,
+      "height": 5500,
+      "fill": "#F7F4EC",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "EkhRf",
+          "name": "Nav Bar",
+          "width": "fill_container",
+          "height": 76,
+          "fill": "#F7F4EC",
+          "padding": [
+            0,
+            130
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "4e6xd",
+              "name": "Logo",
+              "fill": "#243634",
+              "content": "Helo Mentor",
+              "fontFamily": "Inter",
+              "fontSize": 22,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "zC3Dp",
+              "name": "Nav Spacer 1",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "HYxqK",
+              "name": "Nav Links",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hfY5G",
+                  "fill": "#5F6F6B",
+                  "content": "Product",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "OMs54",
+                  "fill": "#5F6F6B",
+                  "content": "Solutions",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "VDoA9",
+                  "fill": "#5F6F6B",
+                  "content": "Resources",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PwY6j",
+                  "fill": "#5F6F6B",
+                  "content": "Pricing",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3tCPp",
+              "name": "Nav Spacer 2",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "NJZ3O",
+              "fill": "#243634",
+              "content": "Log in",
+              "fontFamily": "Inter",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "KLrOU",
+              "name": "Get Started",
+              "fill": "#4A8C7C",
+              "cornerRadius": 999,
+              "padding": [
+                14,
+                24
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lj8AV",
+                  "fill": "#FFFFFF",
+                  "content": "Get started",
+                  "fontFamily": "Inter",
+                  "fontSize": 15,
+                  "fontWeight": "bold"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SyWHM",
+          "name": "Hero Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "padding": [
+            0,
+            60
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "S9C6o",
+              "name": "Hero Container",
+              "width": 1320,
+              "height": 760,
+              "fill": "#4A8C7C",
+              "cornerRadius": 48,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "7p8Cv",
+                  "name": "Hero Left",
+                  "width": "fill_container",
+                  "height": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    80,
+                    60
+                  ],
+                  "justifyContent": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vgUtG",
+                      "name": "Tag Pill",
+                      "cornerRadius": 999,
+                      "padding": [
+                        6,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xa2XX",
+                          "opacity": 0.85,
+                          "fill": "#FFFFFF",
+                          "content": "AI goal mentor for real progress",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "5m4bb",
+                      "name": "Heading",
+                      "fill": "#243634",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "把目标变成每天会发生的行动",
+                      "lineHeight": 1.1,
+                      "fontFamily": "Inter",
+                      "fontSize": 80,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GW48x",
+                      "name": "Subheading",
+                      "opacity": 0.9,
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "创建你的 AI 导师，输入一个短期目标。Helo 会拆计划、陪你执行、通过提问验收，并在你停下来时温和提醒。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8ZLDw",
+                      "name": "CTA Group",
+                      "gap": 16,
+                      "padding": [
+                        16,
+                        0,
+                        0,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "ZvAOt",
+                          "name": "Primary CTA",
+                          "fill": "#243634",
+                          "cornerRadius": 999,
+                          "padding": [
+                            16,
+                            32
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "mKPqQ",
+                              "fill": "#FFFFFF",
+                              "content": "免费开始",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PuvhH",
+                          "name": "Secondary CTA",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "thickness": 1.5,
+                            "fill": "#FFFFFF"
+                          },
+                          "padding": [
+                            16,
+                            32
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "pO7Gd",
+                              "fill": "#FFFFFF",
+                              "content": "查看如何运作",
+                              "fontFamily": "Inter",
+                              "fontSize": 18,
+                              "fontWeight": "bold"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XqajQ",
+                  "name": "Hero Right",
+                  "width": 660,
+                  "height": "fill_container",
+                  "layout": "none",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "AOJh0",
+                      "x": 255,
+                      "y": 260,
+                      "name": "Character Card",
+                      "width": 140,
+                      "height": 140,
+                      "fill": "#243634",
+                      "cornerRadius": 70,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000026",
+                        "offset": {
+                          "x": 0,
+                          "y": 4
+                        },
+                        "blur": 20
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CHDfr",
+                          "name": "Avatar Text",
+                          "fill": "#4A8C7C",
+                          "content": "林",
+                          "fontFamily": "Inter",
+                          "fontSize": 52,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JsMx6",
+                      "x": 30,
+                      "y": 100,
+                      "name": "bub1",
+                      "width": 190,
+                      "height": 46,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 23,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000014",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 10
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "4icd4",
+                          "fill": "#171717",
+                          "content": "今天只做 25 分钟",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jCinB",
+                      "x": 420,
+                      "y": 160,
+                      "name": "bub2",
+                      "width": 170,
+                      "height": 46,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 23,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000014",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 10
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "R7Xj1",
+                          "fill": "#171717",
+                          "content": "第 8 / 30 天",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yY3ld",
+                      "x": 70,
+                      "y": 440,
+                      "name": "bub3",
+                      "width": 155,
+                      "height": 46,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 23,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000014",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 10
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3lEMW",
+                          "fill": "#4A8C7C",
+                          "content": "验收通过 ✓",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Cdw6A",
+                      "x": 220,
+                      "y": 80,
+                      "name": "bub4",
+                      "width": 210,
+                      "height": 46,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 23,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000014",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 10
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "tXkNJ",
+                          "fill": "#171717",
+                          "content": "08:00 已发送今日任务",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HKhkh",
+                      "x": 440,
+                      "y": 380,
+                      "name": "bub5",
+                      "width": 190,
+                      "height": 46,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 23,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#00000014",
+                        "offset": {
+                          "x": 0,
+                          "y": 2
+                        },
+                        "blur": 10
+                      },
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KW7c4",
+                          "fill": "#171717",
+                          "content": "明天任务已调整",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "GquUO",
+                      "x": 330,
+                      "y": 530,
+                      "name": "Phone Chat Card",
+                      "width": 300,
+                      "height": 200,
+                      "fill": "#FFFFFF",
+                      "cornerRadius": 24,
+                      "effect": {
+                        "type": "shadow",
+                        "shadowType": "outer",
+                        "color": "#0000001f",
+                        "offset": {
+                          "x": 0,
+                          "y": 6
+                        },
+                        "blur": 24
+                      },
+                      "layout": "vertical",
+                      "gap": 8,
+                      "padding": [
+                        16,
+                        16,
+                        12,
+                        16
+                      ],
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "piYu7",
+                          "name": "Phone Header",
+                          "width": "fill_container",
+                          "gap": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "Lf47U",
+                              "name": "Mini Avatar",
+                              "width": 28,
+                              "height": 28,
+                              "fill": "#4A8C7C",
+                              "cornerRadius": 14
+                            },
+                            {
+                              "type": "text",
+                              "id": "jSRGL",
+                              "fill": "#171717",
+                              "content": "Helo Mentor",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "P7QZp",
+                          "name": "Mentor Message",
+                          "fill": "#E8F3F0",
+                          "cornerRadius": 16,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HrQTy",
+                              "fill": "#171717",
+                              "content": "今天任务完成了吗？来做个简短验收",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PVV7u",
+                          "name": "User Row",
+                          "width": "fill_container",
+                          "justifyContent": "end",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "7YCPw",
+                              "name": "User Message",
+                              "fill": "#4A8C7C",
+                              "cornerRadius": 16,
+                              "padding": [
+                                10,
+                                14
+                              ],
+                              "children": [
+                                {
+                                  "type": "text",
+                                  "id": "W2iiK",
+                                  "fill": "#FFFFFF",
+                                  "content": "完成了 ✅ 今天做了25分钟表达练习",
+                                  "fontFamily": "Inter",
+                                  "fontSize": 13,
+                                  "fontWeight": "normal"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Vr4g7",
+                          "name": "Mentor Reply",
+                          "fill": "#E8F3F0",
+                          "cornerRadius": 16,
+                          "padding": [
+                            10,
+                            14
+                          ],
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "B7yt6",
+                              "fill": "#171717",
+                              "content": "很好，验收通过。明天继续。",
+                              "fontFamily": "Inter",
+                              "fontSize": 13,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6u6fk",
+          "name": "Social Proof Section",
+          "width": "fill_container",
+          "fill": "#F7F4EC",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            80,
+            130
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XkfMA",
+              "name": "Social Title",
+              "fill": "#243634",
+              "content": "为那些总是开始、却很难坚持的人设计",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 28,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "SlvYW",
+              "name": "Pills Row",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "i3Nm3",
+                  "name": "Pill 1",
+                  "fill": "#E8F3F0",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Fwtb2",
+                      "fill": "#4A8C7C",
+                      "content": "英语学习",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aC3Ay",
+                  "name": "Pill 2",
+                  "fill": "#E8F3F0",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hEOKy",
+                      "fill": "#4A8C7C",
+                      "content": "面试冲刺",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "AZM1G",
+                  "name": "Pill 3",
+                  "fill": "#E8F3F0",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DUKDv",
+                      "fill": "#4A8C7C",
+                      "content": "习惯养成",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "u9c29",
+                  "name": "Pill 4",
+                  "fill": "#E8F3F0",
+                  "cornerRadius": 999,
+                  "padding": [
+                    10,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ft8Zx",
+                      "fill": "#4A8C7C",
+                      "content": "健身入门",
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "suQjB",
+          "name": "Testimonial Cards",
+          "width": "fill_container",
+          "fill": "#F7F4EC",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": [
+            80,
+            130,
+            100,
+            130
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "JXJmH",
+              "name": "Testimonial Title",
+              "fill": "#243634",
+              "content": "看看他们完成了什么",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "p45oY",
+              "name": "Card Row",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "kJlo5",
+                  "name": "Card 1",
+                  "width": "fill_container",
+                  "fill": "#E8F3F0",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "c7ZAG",
+                      "name": "card1Head",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "bGLIT",
+                          "name": "Avatar 1",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#4A8C7C",
+                          "cornerRadius": 22
+                        },
+                        {
+                          "type": "text",
+                          "id": "s2FaN",
+                          "name": "Avatar Text 1",
+                          "fill": "#FFFFFF",
+                          "content": "英语",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "ve5MC",
+                      "name": "Card 1 Title",
+                      "fill": "#243634",
+                      "content": "30 天英语口语",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GPtmN",
+                      "name": "Card 1 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "从不敢开口，到每天复述 5 句。30 天后能完整做一段自我介绍。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JMIcu",
+                      "name": "Progress Track 1",
+                      "width": "fill_container",
+                      "height": 8,
+                      "fill": "#D1E8E0",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "FZocB",
+                          "name": "Progress Fill 1",
+                          "width": "fill_container",
+                          "height": 8,
+                          "fill": "#4A8C7C",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "A7nDs",
+                      "name": "Badge 1",
+                      "fill": "#4A8C7C",
+                      "content": "已完成 30 天 ✓",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k6EX3",
+                  "name": "Card 2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Rg0pE",
+                      "name": "card2Head",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "CPwmJ",
+                          "name": "Avatar 2",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#E8B87A",
+                          "cornerRadius": 22
+                        },
+                        {
+                          "type": "text",
+                          "id": "RLCil",
+                          "name": "Avatar Text 2",
+                          "fill": "#FFFFFF",
+                          "content": "面试",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yVwKa",
+                      "name": "Card 2 Title",
+                      "fill": "#243634",
+                      "content": "15 天面试准备",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "D02Hb",
+                      "name": "Card 2 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "每天一轮模拟问答，减少临场慌乱。导师针对每轮回答给反馈。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "2PqNl",
+                      "name": "Progress Track 2",
+                      "width": "fill_container",
+                      "height": 8,
+                      "fill": "#D1E8E0",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "EEZAy",
+                          "name": "Progress Fill 2",
+                          "width": 180,
+                          "height": 8,
+                          "fill": "#E8B87A",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "v5znD",
+                      "name": "Badge 2",
+                      "fill": "#E8B87A",
+                      "content": "已完成 8/15 天",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "NpmSt",
+                  "name": "Card 3",
+                  "width": "fill_container",
+                  "fill": "#E8F3F0",
+                  "cornerRadius": 24,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "5ZB4n",
+                      "name": "card3Head",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "p5GhZ",
+                          "name": "Avatar 3",
+                          "width": 44,
+                          "height": 44,
+                          "fill": "#243634",
+                          "cornerRadius": 22
+                        },
+                        {
+                          "type": "text",
+                          "id": "aexrr",
+                          "name": "Avatar Text 3",
+                          "fill": "#FFFFFF",
+                          "content": "早睡",
+                          "fontFamily": "Inter",
+                          "fontSize": 14,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "hu5XK",
+                      "name": "Card 3 Title",
+                      "fill": "#243634",
+                      "content": "21 天早睡计划",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cdkwA",
+                      "name": "Card 3 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "把提醒、复盘和压力来源记录在同一个地方。完成 21 天周期后自然形成新习惯。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "po6HN",
+                      "name": "Progress Track 3",
+                      "width": "fill_container",
+                      "height": 8,
+                      "fill": "#D1E8E0",
+                      "cornerRadius": 4,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "rS0Xf",
+                          "name": "Progress Fill 3",
+                          "width": "fill_container",
+                          "height": 8,
+                          "fill": "#4A8C7C",
+                          "cornerRadius": 4
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "wjNBr",
+                      "name": "Badge 3",
+                      "fill": "#4A8C7C",
+                      "content": "已完成 21 天 ✓",
+                      "fontFamily": "Inter",
+                      "fontSize": 13,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kmviI",
+          "name": "Before After Section",
+          "width": "fill_container",
+          "children": [
+            {
+              "type": "frame",
+              "id": "bdSv9",
+              "name": "Before Half",
+              "width": "fill_container",
+              "fill": "#F0EDE5",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                80,
+                130,
+                80,
+                80
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IVg06",
+                  "name": "Before Label",
+                  "fill": "#5F6F6B",
+                  "content": "Before",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "bUJi5",
+                  "name": "Before 1",
+                  "fill": "#171717",
+                  "content": "目标写在备忘录里，几天后忘记",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "3uEaZ",
+                  "name": "Before 2",
+                  "fill": "#171717",
+                  "content": "AI 聊天很热闹，但没有验收",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ivjGo",
+                  "name": "Before 3",
+                  "fill": "#171717",
+                  "content": "打卡只是点一下，没人在乎",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GtTmm",
+              "name": "Divider",
+              "width": 60,
+              "height": "fill_container",
+              "fill": "#F7F4EC",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZncBA",
+                  "name": "Arrow Circle",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "#4A8C7C",
+                  "cornerRadius": 20
+                },
+                {
+                  "type": "text",
+                  "id": "k5WMy",
+                  "name": "Arrow",
+                  "fill": "#FFFFFF",
+                  "content": "→",
+                  "fontFamily": "Inter",
+                  "fontSize": 20,
+                  "fontWeight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NVhU4",
+              "name": "After Half",
+              "width": "fill_container",
+              "fill": "#E8F3F0",
+              "layout": "vertical",
+              "gap": 24,
+              "padding": [
+                80,
+                80,
+                80,
+                130
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nTrQi",
+                  "name": "After Label",
+                  "fill": "#4A8C7C",
+                  "content": "After Helo",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "nAI7R",
+                  "name": "After 1",
+                  "fill": "#171717",
+                  "content": "每天知道下一步该做什么",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LtO46",
+                  "name": "After 2",
+                  "fill": "#171717",
+                  "content": "导师记住你的节奏和进度",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "PyU3g",
+                  "name": "After 3",
+                  "fill": "#171717",
+                  "content": "完成后必须回答问题来验收",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "m6xrB",
+                  "name": "After 4",
+                  "fill": "#171717",
+                  "content": "停下来会收到温和提醒",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "5a58o",
+          "name": "How It Works Section",
+          "width": "fill_container",
+          "fill": "#F7F4EC",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            90,
+            130
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "613gN",
+              "name": "HIW Title",
+              "fill": "#243634",
+              "content": "三步开始你的第一个目标",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "L6vVr",
+              "name": "Steps Row",
+              "width": "fill_container",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "VRhvr",
+                  "name": "Step 1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hnUab",
+                      "name": "Step 1 Num",
+                      "fill": "#4A8C7C",
+                      "content": "01",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "FNSoK",
+                      "name": "Step 1 Title",
+                      "fill": "#243634",
+                      "content": "选择导师",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oPXXs",
+                      "name": "Step 1 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "从预设风格中选择或自定义一位 AI 导师，匹配你的目标类型。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "W4w7Q",
+                      "name": "Step 1 Demo",
+                      "width": "fill_container",
+                      "height": 60,
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "87378",
+                          "name": "Demo Tag",
+                          "width": "fit_content(0)",
+                          "height": "fit_content(0)",
+                          "fill": "#4A8C7C",
+                          "cornerRadius": 8,
+                          "padding": [
+                            8,
+                            14
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "VW0Bv",
+                          "fill": "#FFFFFF",
+                          "content": "导师：林澈 · 温和鼓励型",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OamwW",
+                  "name": "Step 2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OW1rH",
+                      "name": "Step 2 Num",
+                      "fill": "#E8B87A",
+                      "content": "02",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "xy70j",
+                      "name": "Step 2 Title",
+                      "fill": "#243634",
+                      "content": "设定周期目标",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zpDHQ",
+                      "name": "Step 2 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "输入你的目标，AI 自动拆解为每天可执行的小任务和验收标准。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MvN5Z",
+                      "name": "Step 2 Demo",
+                      "width": "fill_container",
+                      "height": 60,
+                      "fill": "#FFF8ED",
+                      "cornerRadius": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "b6z6S",
+                          "name": "Demo Tag 2",
+                          "width": "fit_content(0)",
+                          "height": "fit_content(0)",
+                          "fill": "#E8B87A",
+                          "cornerRadius": 8,
+                          "padding": [
+                            8,
+                            14
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "KjZ94",
+                          "fill": "#FFFFFF",
+                          "content": "目标：30 天英语口语",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vud0F",
+                  "name": "Step 3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    32,
+                    28
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "UjSLM",
+                      "name": "Step 3 Num",
+                      "fill": "#4A8C7C",
+                      "content": "03",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "3my6n",
+                      "name": "Step 3 Title",
+                      "fill": "#243634",
+                      "content": "每天执行并验收",
+                      "fontFamily": "Inter",
+                      "fontSize": 22,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ACQJh",
+                      "name": "Step 3 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "每天收到任务，完成后回答问题来验收。快或慢都可以，导师会调整节奏。",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "1f7Vn",
+                      "name": "Step 3 Demo",
+                      "width": "fill_container",
+                      "height": 60,
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 12,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "1ci4t",
+                          "name": "Demo Tag 3",
+                          "width": "fit_content(0)",
+                          "height": "fit_content(0)",
+                          "fill": "#4A8C7C",
+                          "cornerRadius": 8,
+                          "padding": [
+                            8,
+                            14
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "id": "ymknP",
+                          "fill": "#FFFFFF",
+                          "content": "第 5/30 天 · 今日任务已发送",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7AJDH",
+          "name": "Templates Section",
+          "width": "fill_container",
+          "fill": "#F7F4EC",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            130,
+            100,
+            130
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "e688J",
+              "name": "Tmpl Title",
+              "fill": "#243634",
+              "content": "从一个模板开始，不用从空白开始",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "wrdLh",
+              "name": "Templates Row 1",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Slofh",
+                  "name": "Tmpl Card 1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oN6FV",
+                      "name": "Cat 1",
+                      "width": "fit_content(0)",
+                      "height": "fit_content(0)",
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        10
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SHjCe",
+                      "fill": "#4A8C7C",
+                      "content": "口语",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "7Gw9d",
+                      "name": "Tmpl 1 Title",
+                      "fill": "#243634",
+                      "content": "30 天英语口语",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "acyGa",
+                      "name": "Tmpl 1 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "每天跟读复述 → AI 纠音 → 自由表达",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UTrNZ",
+                      "name": "Meta 1",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GbFCp",
+                          "fill": "#4A8C7C",
+                          "content": "30 天",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "J02Nk",
+                          "width": 4,
+                          "height": 4,
+                          "fill": "#D1E8E0",
+                          "cornerRadius": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "gefsZ",
+                          "fill": "#5F6F6B",
+                          "content": "温和鼓励型",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "8teQ9",
+                      "name": "CTA 1",
+                      "width": "fill_container",
+                      "height": "fit_content(0)",
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 8,
+                      "padding": [
+                        10,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "5v0lW",
+                      "fill": "#4A8C7C",
+                      "content": "使用此模板 →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wgtsh",
+                  "name": "Tmpl Card 2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "PdUt9",
+                      "name": "Cat 2",
+                      "width": "fit_content(0)",
+                      "height": "fit_content(0)",
+                      "fill": "#FFF8ED",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        10
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SfhCB",
+                      "fill": "#E8B87A",
+                      "content": "面试",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "d90ej",
+                      "name": "Tmpl 2 Title",
+                      "fill": "#243634",
+                      "content": "15 天面试准备",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "84QzH",
+                      "name": "Tmpl 2 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "每日模拟问答 → 反馈迭代 → 临场不慌",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "cwHpH",
+                      "name": "Meta 2",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TiCHZ",
+                          "fill": "#E8B87A",
+                          "content": "15 天",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nmrI0",
+                          "width": 4,
+                          "height": 4,
+                          "fill": "#F0DCC0",
+                          "cornerRadius": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "0NGW3",
+                          "fill": "#5F6F6B",
+                          "content": "严谨教练型",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AwxlK",
+                      "name": "CTA 2",
+                      "width": "fill_container",
+                      "height": "fit_content(0)",
+                      "fill": "#FFF8ED",
+                      "cornerRadius": 8,
+                      "padding": [
+                        10,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "SbWcm",
+                      "fill": "#E8B87A",
+                      "content": "使用此模板 →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cQjfs",
+                  "name": "Tmpl Card 3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rkL2l",
+                      "name": "Cat 3",
+                      "width": "fit_content(0)",
+                      "height": "fit_content(0)",
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        10
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "4E7en",
+                      "fill": "#4A8C7C",
+                      "content": "作品集",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ngtfa",
+                      "name": "Tmpl 3 Title",
+                      "fill": "#243634",
+                      "content": "7 天作品集冲刺",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nvk7y",
+                      "name": "Tmpl 3 Desc",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "每日可完成的小项目 → 导师验收 → 7 天产出完整作品",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AKpUU",
+                      "name": "Meta 3",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Qk6NS",
+                          "fill": "#4A8C7C",
+                          "content": "7 天",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4QPu4",
+                          "width": 4,
+                          "height": 4,
+                          "fill": "#D1E8E0",
+                          "cornerRadius": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "SqI2N",
+                          "fill": "#5F6F6B",
+                          "content": "行动派",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "dERll",
+                      "name": "CTA 3",
+                      "width": "fill_container",
+                      "height": "fit_content(0)",
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 8,
+                      "padding": [
+                        10,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "OhS9W",
+                      "fill": "#4A8C7C",
+                      "content": "使用此模板 →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "dyu1y",
+              "name": "Templates Row 2",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "CqKoP",
+                  "name": "Tmpl Card 4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "qTSHL",
+                      "width": "fit_content(0)",
+                      "height": "fit_content(0)",
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        10
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "pTb1h",
+                      "fill": "#4A8C7C",
+                      "content": "早睡",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lZsGY",
+                      "fill": "#243634",
+                      "content": "21 天早睡计划",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "BqceB",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "睡前准备清单 → AI 复盘 → 压力记录 → 周期回顾",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SvBbx",
+                      "name": "meta4",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dFLZa",
+                          "fill": "#4A8C7C",
+                          "content": "21 天",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8wKxq",
+                          "width": 4,
+                          "height": 4,
+                          "fill": "#D1E8E0",
+                          "cornerRadius": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "fvwE9",
+                          "fill": "#5F6F6B",
+                          "content": "温和鼓励型",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PgjHd",
+                      "width": "fill_container",
+                      "height": "fit_content(0)",
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 8,
+                      "padding": [
+                        10,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Gwfvn",
+                      "fill": "#4A8C7C",
+                      "content": "使用此模板 →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TApJR",
+                  "name": "Tmpl Card 5",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oG6Xr",
+                      "width": "fit_content(0)",
+                      "height": "fit_content(0)",
+                      "fill": "#FFF8ED",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        10
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "KA3SE",
+                      "fill": "#E8B87A",
+                      "content": "健身",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "X04Ei",
+                      "fill": "#243634",
+                      "content": "100 天健身入门",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ITb6R",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "渐进式训练计划 → 每日打卡 → 身体数据记录",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fXpdT",
+                      "name": "meta5",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ywj2V",
+                          "fill": "#E8B87A",
+                          "content": "100 天",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "biAcp",
+                          "width": 4,
+                          "height": 4,
+                          "fill": "#F0DCC0",
+                          "cornerRadius": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "hnkj6",
+                          "fill": "#5F6F6B",
+                          "content": "科学计划型",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ebN4E",
+                      "width": "fill_container",
+                      "height": "fit_content(0)",
+                      "fill": "#FFF8ED",
+                      "cornerRadius": 8,
+                      "padding": [
+                        10,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "V6UHa",
+                      "fill": "#E8B87A",
+                      "content": "使用此模板 →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wrGUW",
+                  "name": "Tmpl Card 6",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 20,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    24,
+                    20
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "vtFI0",
+                      "width": "fit_content(0)",
+                      "height": "fit_content(0)",
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 999,
+                      "padding": [
+                        4,
+                        10
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "hbiPq",
+                      "fill": "#4A8C7C",
+                      "content": "自定义",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bcXGD",
+                      "fill": "#243634",
+                      "content": "自定义目标",
+                      "fontFamily": "Inter",
+                      "fontSize": 20,
+                      "fontWeight": "bold"
+                    },
+                    {
+                      "type": "text",
+                      "id": "J4Ezo",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "输入任何你想完成的目标，AI 导师会为你制定专属计划和验收方式。",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bJUcD",
+                      "name": "meta6",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "m9Hol",
+                          "fill": "#4A8C7C",
+                          "content": "按需设定",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XSP1P",
+                          "width": 4,
+                          "height": 4,
+                          "fill": "#D1E8E0",
+                          "cornerRadius": 2
+                        },
+                        {
+                          "type": "text",
+                          "id": "VNGRn",
+                          "fill": "#5F6F6B",
+                          "content": "任意风格",
+                          "fontFamily": "Inter",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "bqCrO",
+                      "width": "fill_container",
+                      "height": "fit_content(0)",
+                      "fill": "#E8F3F0",
+                      "cornerRadius": 8,
+                      "padding": [
+                        10,
+                        0
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "l6eFJ",
+                      "fill": "#4A8C7C",
+                      "content": "自定义 →",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GAL5m",
+          "name": "FAQ Section",
+          "width": "fill_container",
+          "fill": "#F7F4EC",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": [
+            80,
+            130
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "4tVEb",
+              "name": "FAQ Title",
+              "fill": "#243634",
+              "content": "常见问题",
+              "fontFamily": "Inter",
+              "fontSize": 36,
+              "fontWeight": "bold"
+            },
+            {
+              "type": "frame",
+              "id": "XOYnI",
+              "name": "FAQ List",
+              "width": 860,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Bbapl",
+                  "name": "FAQ 1",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": [
+                    20,
+                    24,
+                    24,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "X390B",
+                      "name": "FAQ 1 Q",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "vOc2a",
+                          "name": "FAQ 1 Q Text",
+                          "fill": "#243634",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "它和普通 ChatGPT 聊天有什么区别？",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "4ZaPS",
+                          "name": "FAQ 1 Icon",
+                          "fill": "#4A8C7C",
+                          "content": "−",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "4fUGv",
+                      "name": "FAQ 1 Answer",
+                      "fill": "#5F6F6B",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "ChatGPT 是对话式的问答工具，你需要自己负责推进和复盘。Helo 的 AI 导师有明确的周期目标、每日任务推送、执行后的验收提问和进度追踪。它会主动提醒你、评估你的完成质量，并根据你的表现自动调整后续计划。更像是有一个「人在」盯着你的进度。",
+                      "lineHeight": 1.7,
+                      "fontFamily": "Inter",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "y24Ry",
+                  "name": "FAQ 2",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "el4UG",
+                      "name": "FAQ 2 Q",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "efSXv",
+                          "name": "FAQ 2 Q Text",
+                          "fill": "#243634",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "AI 怎么判断我真的完成了？",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "GJYzO",
+                          "name": "FAQ 2 Icon",
+                          "fill": "#5F6F6B",
+                          "content": "+",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "YcuNt",
+                  "name": "FAQ 3",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "rDBr8",
+                      "name": "FAQ 3 Q",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lUI63",
+                          "name": "FAQ 3 Q Text",
+                          "fill": "#243634",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "可以创建多个导师吗？",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Dvgd7",
+                          "name": "FAQ 3 Icon",
+                          "fill": "#5F6F6B",
+                          "content": "+",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DcLmA",
+                  "name": "FAQ 4",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "nUO1Q",
+                      "name": "FAQ 4 Q",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "LWVeb",
+                          "name": "FAQ 4 Q Text",
+                          "fill": "#243634",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "邮件提醒会不会打扰？",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "VNvft",
+                          "name": "FAQ 4 Icon",
+                          "fill": "#5F6F6B",
+                          "content": "+",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "eRaAy",
+                  "name": "FAQ 5",
+                  "width": "fill_container",
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    24
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "HtW8i",
+                      "name": "FAQ 5 Q",
+                      "width": "fill_container",
+                      "gap": 12,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "p4PV1",
+                          "name": "FAQ 5 Q Text",
+                          "fill": "#243634",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "第一版免费吗？",
+                          "fontFamily": "Inter",
+                          "fontSize": 17,
+                          "fontWeight": "bold"
+                        },
+                        {
+                          "type": "text",
+                          "id": "OnxjF",
+                          "name": "FAQ 5 Icon",
+                          "fill": "#5F6F6B",
+                          "content": "+",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QSjOQ",
+          "name": "Bottom CTA Section",
+          "width": "fill_container",
+          "fill": "#F7F4EC",
+          "layout": "vertical",
+          "padding": [
+            0,
+            60
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "aooyb",
+              "name": "CTA Container",
+              "width": 1320,
+              "fill": "#4A8C7C",
+              "cornerRadius": 36,
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 80,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EQVG1",
+                  "name": "CTA Title",
+                  "fill": "#243634",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "今天开始，让目标真的往前走一步",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 44,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "text",
+                  "id": "ECe9H",
+                  "name": "CTA Sub",
+                  "opacity": 0.9,
+                  "fill": "#FFFFFF",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "先免费创建一位导师，体验一次从计划到验收的完整闭环。",
+                  "textAlign": "center",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "BS0V9",
+                  "name": "CTA Group 2",
+                  "gap": 20,
+                  "padding": [
+                    16,
+                    0,
+                    0,
+                    0
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "OYFMX",
+                      "name": "CTA Button",
+                      "fill": "#243634",
+                      "cornerRadius": 999,
+                      "padding": [
+                        18,
+                        40
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "FgvsV",
+                          "fill": "#FFFFFF",
+                          "content": "免费开始",
+                          "fontFamily": "Inter",
+                          "fontSize": 20,
+                          "fontWeight": "bold"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "1gUIs",
+                      "name": "CTA Link",
+                      "opacity": 0.85,
+                      "fill": "#FFFFFF",
+                      "content": "查看定价",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "bold"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YMzSv",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#F7F4EC",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            50,
+            130,
+            40,
+            130
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "1lQps",
+              "name": "Footer Divider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#E0DDD5"
+            },
+            {
+              "type": "frame",
+              "id": "hJoIn",
+              "name": "Footer Content",
+              "width": "fill_container",
+              "gap": 24,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "kAc9p",
+                  "name": "Footer Brand",
+                  "fill": "#243634",
+                  "content": "Helo Mentor",
+                  "fontFamily": "Inter",
+                  "fontSize": 18,
+                  "fontWeight": "bold"
+                },
+                {
+                  "type": "frame",
+                  "id": "pdN8d",
+                  "name": "Footer Spacer",
+                  "width": "fill_container",
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "SHxPe",
+                  "name": "Footer Product",
+                  "fill": "#5F6F6B",
+                  "content": "Product",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ItKzA",
+                  "name": "Footer Pricing",
+                  "fill": "#5F6F6B",
+                  "content": "Pricing",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "M4ILo",
+                  "name": "Footer Privacy",
+                  "fill": "#5F6F6B",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "bY31F",
+                  "name": "Footer Terms",
+                  "fill": "#5F6F6B",
+                  "content": "Terms",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "rFbPg",
+              "name": "Footer Disclaimer",
+              "fill": "#B0B8B4",
+              "content": "AI 目标导师不替代医疗、心理或法律等专业建议。",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 13,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "accent-yellow": {
+      "type": "color",
+      "value": "#E8B87A"
+    },
+    "cream": {
+      "type": "color",
+      "value": "#F7F4EC"
+    },
+    "dark-green": {
+      "type": "color",
+      "value": "#243634"
+    },
+    "muted-text": {
+      "type": "color",
+      "value": "#5F6F6B"
+    },
+    "primary-green": {
+      "type": "color",
+      "value": "#4A8C7C"
+    },
+    "soft-green": {
+      "type": "color",
+      "value": "#E8F3F0"
+    },
+    "text-black": {
+      "type": "color",
+      "value": "#171717"
+    }
+  }
+}
