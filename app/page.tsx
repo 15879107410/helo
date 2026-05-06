@@ -56,6 +56,39 @@ type Copy = {
     title: string,
     items: string[]
   },
+  loop: {
+    stripTitle: string,
+    stripItems: Array<{
+      avatar: string,
+      photo: string,
+      name: string,
+      meta: string,
+      quote: string,
+      tone: "coral" | "violet" | "lime" | "cream"
+    }>,
+    title: [string, string],
+    body: string,
+    panelEyebrow: string,
+    panelTitle: string,
+    panelBody: string,
+    cta: string,
+    goal: string,
+    day: string,
+    taskTitle: string,
+    taskBody: string,
+    mentorLine: string,
+    userLine: string,
+    assessmentTitle: string,
+    assessmentItems: string[],
+    emailTitle: string,
+    emailBody: string,
+    stories: Array<{
+      label: string,
+      count: string,
+      title: string,
+      body: string
+    }>
+  },
   showcase: {
     title: string,
     body: string,
@@ -143,6 +176,38 @@ const copy: Record<Locale, Copy> = {
     proof: {
       title: "为那些总是开始，却很难坚持的人而设计。",
       items: ["目标拆解", "每日任务", "AI 验收", "邮件提醒"]
+    },
+    loop: {
+      stripTitle: "被你的 AI 导师带回下一步。",
+      stripItems: [
+        { avatar: "林", photo: "https://randomuser.me/api/portraits/women/44.jpg", name: "英语口语导师", meta: "第 8 / 30 天", quote: "今天只练咖啡店点单，完成后用 3 个问题验收。", tone: "coral" },
+        { avatar: "面", photo: "https://randomuser.me/api/portraits/men/32.jpg", name: "面试冲刺导师", meta: "15 天计划", quote: "先答一轮行为面试，再把薄弱点拆进明天任务。", tone: "violet" },
+        { avatar: "睡", photo: "https://randomuser.me/api/portraits/women/68.jpg", name: "早睡节奏导师", meta: "21 天节奏", quote: "今晚只提前 20 分钟，明早邮件提醒复盘阻碍。", tone: "lime" },
+        { avatar: "作", photo: "https://randomuser.me/api/portraits/men/75.jpg", name: "作品集导师", meta: "第 3 / 7 天", quote: "今天只交互一个页面，完成后说明你改了什么。", tone: "cream" },
+        { avatar: "健", photo: "https://randomuser.me/api/portraits/women/12.jpg", name: "健身入门导师", meta: "100 天入门", quote: "降低难度也算推进，先完成 12 分钟基础训练。", tone: "coral" }
+      ],
+      title: ["把目标推进", "做成每天会发生的闭环"],
+      body: "Helo 把计划、执行、验收和提醒连成一条线，让目标不再停在聊天里。",
+      panelEyebrow: "Goal automation",
+      panelTitle: "从目标，到今天真正要做的一步。",
+      panelBody: "导师先把目标拆成周期计划，再每天推送任务、陪你执行，并用提问确认你真的完成。",
+      cta: "查看闭环",
+      goal: "30 天基础英语口语",
+      day: "第 8 / 30 天",
+      taskTitle: "今日任务",
+      taskBody: "咖啡店点单场景：听 3 遍，复述 5 句，并录一次自己的回答。",
+      mentorLine: "今天只需要 25 分钟。完成后我会问你 3 个问题，确认你能真的开口。",
+      userLine: "我已经练完了，能复述点单和确认取餐。",
+      assessmentTitle: "提问验收",
+      assessmentItems: ["用英文点一杯冰拿铁", "说明是否堂食", "听懂取餐提醒"],
+      emailTitle: "明早 08:30",
+      emailBody: "如果今天中断，邮件会把你带回下一步，而不是让计划消失。",
+      stories: [
+        { label: "AI 目标拆解", count: "1/4", title: "先把 30 天拆成今天能开始的动作", body: "输入周期、基础和可投入时间，Helo 自动生成阶段计划和每日任务。" },
+        { label: "每日陪跑", count: "2/4", title: "每天进入一个具体任务场景", body: "导师用很短的对话把你带回今天的任务，不让目标停在计划里。" },
+        { label: "提问验收", count: "3/4", title: "做完以后，用问题确认是否真的掌握", body: "不是点一下完成，而是回答和产出，让导师判断质量。" },
+        { label: "邮件提醒回流", count: "4/4", title: "中断时，把你温和带回下一步", body: "邮件提醒今日任务和调整后的节奏，让计划不断线。" }
+      ]
     },
     showcase: {
       title: "把最重要的目标，重新带回对话里。",
@@ -266,6 +331,38 @@ const copy: Record<Locale, Copy> = {
       title: "Built for people who start often, and want to keep going.",
       items: ["Goal breakdown", "Daily tasks", "AI assessment", "Email nudges"]
     },
+    loop: {
+      stripTitle: "Pulled back by your AI mentor.",
+      stripItems: [
+        { avatar: "EN", photo: "https://randomuser.me/api/portraits/women/44.jpg", name: "Spoken English mentor", meta: "Day 8 / 30", quote: "Practice coffee ordering today, then answer 3 check-in questions.", tone: "coral" },
+        { avatar: "IV", photo: "https://randomuser.me/api/portraits/men/32.jpg", name: "Interview sprint mentor", meta: "15-day plan", quote: "Run one behavioral round, then fold weak spots into tomorrow.", tone: "violet" },
+        { avatar: "SL", photo: "https://randomuser.me/api/portraits/women/68.jpg", name: "Sleep rhythm mentor", meta: "21-day rhythm", quote: "Move bedtime 20 minutes earlier and review friction tomorrow.", tone: "lime" },
+        { avatar: "PF", photo: "https://randomuser.me/api/portraits/men/75.jpg", name: "Portfolio mentor", meta: "Day 3 / 7", quote: "Ship one page interaction, then explain what changed.", tone: "cream" },
+        { avatar: "FT", photo: "https://randomuser.me/api/portraits/women/12.jpg", name: "Fitness mentor", meta: "100-day start", quote: "Lower the bar if needed. Finish the 12-minute base set first.", tone: "coral" }
+      ],
+      title: ["Turn goal progress", "into a daily loop"],
+      body: "Helo connects planning, action, assessment, and nudges so your goals do not stay inside a chat thread.",
+      panelEyebrow: "Goal automation",
+      panelTitle: "From the goal to today's next real step.",
+      panelBody: "Your mentor turns the goal into a timeline, sends the daily task, coaches you through it, and checks whether it really landed.",
+      cta: "See the loop",
+      goal: "30-day spoken English",
+      day: "Day 8 / 30",
+      taskTitle: "Today's task",
+      taskBody: "Coffee-ordering scenario: listen 3 times, repeat 5 lines, and record one answer.",
+      mentorLine: "Keep it to 25 minutes today. I'll ask 3 questions after you finish to check if you can actually speak it.",
+      userLine: "Done. I can order and confirm pickup now.",
+      assessmentTitle: "Assessment",
+      assessmentItems: ["Order an iced latte", "Say dine-in or to-go", "Understand pickup cues"],
+      emailTitle: "Tomorrow 08:30",
+      emailBody: "If momentum breaks, email brings you back to the next step instead of letting the plan disappear.",
+      stories: [
+        { label: "Goal breakdown", count: "1/4", title: "Break a 30-day goal into something you can start today", body: "Add your timeline, level, and available time. Helo turns it into phases and daily tasks." },
+        { label: "Daily coaching", count: "2/4", title: "Enter one concrete task scene every day", body: "The mentor brings you back to today's task with a short, focused conversation." },
+        { label: "Assessment", count: "3/4", title: "After you finish, questions prove whether it landed", body: "No empty checkboxes. Helo asks for recall, explanation, or output quality." },
+        { label: "Email return loop", count: "4/4", title: "When momentum breaks, return to the next step", body: "Email nudges carry today's task and the adjusted rhythm back to you." }
+      ]
+    },
     showcase: {
       title: "Bring your most important goals back into the conversation.",
       body: "Not just a reminder system. A mentor that keeps pulling you back to the next real step.",
@@ -363,8 +460,7 @@ export default function Home() {
   return (
     <main className={`${displayLatin.variable} ${displayCjk.variable} ${uiSans.variable} ${locale === "zh" ? "locale-zh" : "locale-en"}`}>
       <Hero locale={locale} setLocale={setLocale} t={t} />
-      <LogoStrip t={t} />
-      <Showcase t={t} />
+      <LoopShowcase t={t} />
       <BeforeAfter t={t} />
       <MentorTemplates t={t} />
       <FeatureShowcase t={t} />
@@ -460,35 +556,127 @@ function Hero({
   );
 }
 
-function LogoStrip({ t }: { t: Copy }) {
-  return (
-    <section className="logo-strip">
-      <h2>{t.proof.title}</h2>
-      <div>
-        {t.proof.items.map((item) => <span key={item}>{item}</span>)}
-      </div>
-    </section>
-  );
-}
+function LoopShowcase({ t }: { t: Copy }) {
+  const [activeLoopStep, setActiveLoopStep] = useState(0);
 
-function Showcase({ t }: { t: Copy }) {
+  useEffect(() => {
+    const updateActiveStep = () => {
+      const stage = document.querySelector<HTMLElement>(".loop-scroll-stage");
+
+      if (!stage) return;
+
+      const rect = stage.getBoundingClientRect();
+      const stageTop = rect.top + window.scrollY;
+      const scrollable = Math.max(1, rect.height - window.innerHeight);
+      const rawProgress = Math.min(0.999, Math.max(0, (window.scrollY - stageTop) / scrollable));
+      const segment = 1 / t.loop.stories.length;
+      const step = Math.min(t.loop.stories.length - 1, Math.floor((rawProgress + segment * 0.12) / segment));
+
+      setActiveLoopStep(step);
+    };
+
+    updateActiveStep();
+    window.addEventListener("scroll", updateActiveStep, { passive: true });
+    window.addEventListener("resize", updateActiveStep);
+
+    return () => {
+      window.removeEventListener("scroll", updateActiveStep);
+      window.removeEventListener("resize", updateActiveStep);
+    };
+  }, [t.loop.stories.length]);
+
   return (
-    <section className="showcase">
-      <div className="showcase-copy">
-        <div className="section-icon"><MessageCircle size={28} /></div>
-        <h2>{t.showcase.title}</h2>
-        <p>{t.showcase.body}</p>
+    <section className="loop-showcase">
+      <div className="loop-proof">
+        <strong><span className="proof-heart">♥</span>{t.loop.stripTitle}</strong>
+        <div className="loop-proof-marquee" aria-label={t.loop.stripTitle}>
+          <div className="loop-proof-track">
+            {[...t.loop.stripItems, ...t.loop.stripItems].map((item, index) => (
+              <article className="loop-proof-card" data-tone={item.tone} key={`${item.name}-${index}`}>
+                <span className="proof-avatar">
+                  <img src={item.photo} alt="" loading="lazy" />
+                </span>
+                <div>
+                  <strong>{item.name}</strong>
+                  <small>{item.meta}</small>
+                  <p>{item.quote}</p>
+                  <em>查看下一步 <ArrowRight size={15} /></em>
+                </div>
+              </article>
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="story-row">
-        {t.showcase.stories.map((story, index) => (
-          <article key={story.name} className={`story-card story-${index + 1}`}>
-            <div className="story-avatar"><Human tone={index % 2 ? "violet" : "mint"} /></div>
-            <strong>{story.name}</strong>
-            <span>{story.metric}</span>
-            <p>{story.quote}</p>
-            <a href="#">{story.cta}</a>
-          </article>
-        ))}
+
+      <div className="loop-intro">
+        <div className="section-icon"><MessageCircle size={28} /></div>
+        <h2>{t.loop.title[0]}<span>{t.loop.title[1]}</span></h2>
+        <p>{t.loop.body}</p>
+      </div>
+
+      <div className="loop-scroll-stage">
+        <div className="loop-panel">
+          <div className="loop-panel-copy">
+            <div className="loop-panel-kicker">
+              <div className="loop-progress-dots" aria-hidden="true">
+                {t.loop.stories.map((story, index) => (
+                  <i key={story.label} className={activeLoopStep === index ? "active" : ""} />
+                ))}
+              </div>
+            </div>
+            <div className="loop-story-stack">
+              {t.loop.stories.map((story, index) => (
+                <article key={story.label} className={`loop-story ${activeLoopStep === index ? "active" : ""}`}>
+                  <small>{story.count}</small>
+                  <h3>{story.title}</h3>
+                  <p>{story.body}</p>
+                </article>
+              ))}
+            </div>
+            <a href="#">{t.loop.cta}</a>
+          </div>
+
+          <div className="loop-mockup">
+            <div className="loop-window">
+              <div className="loop-window-top">
+                <span />
+                <strong>{t.loop.goal}</strong>
+                <small>{t.loop.day}</small>
+              </div>
+              <article className={`daily-task ${activeLoopStep === 0 ? "active" : ""}`}>
+                <small>{t.loop.taskTitle}</small>
+                <p>{t.loop.taskBody}</p>
+              </article>
+              <div className={`loop-chat-row mentor ${activeLoopStep === 1 ? "active" : ""}`}>
+                <span className="mini-face" />
+                <p>{t.loop.mentorLine}</p>
+              </div>
+              <div className={`loop-chat-row user ${activeLoopStep === 1 ? "active" : ""}`}>
+                <p>{t.loop.userLine}</p>
+              </div>
+              <article className={`assessment-card ${activeLoopStep === 2 ? "active" : ""}`}>
+                <strong>{t.loop.assessmentTitle}</strong>
+                {t.loop.assessmentItems.map((item) => (
+                  <span key={item}><Check size={14} />{item}</span>
+                ))}
+              </article>
+              <article className={`email-card ${activeLoopStep === 3 ? "active" : ""}`}>
+                <MailCheck size={20} />
+                <div>
+                  <strong>{t.loop.emailTitle}</strong>
+                  <p>{t.loop.emailBody}</p>
+                </div>
+              </article>
+            </div>
+
+            <div className="loop-stepbar">
+              <span>
+                <strong>{t.loop.stories[activeLoopStep].label}</strong>
+                <em>{t.loop.stories[activeLoopStep].count}</em>
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );
